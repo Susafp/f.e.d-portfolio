@@ -125,8 +125,8 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 6. Copied the below code from GitHub into the terminal window in my Visual Studio Code workspace:
 
 ```git remote add origin https://github.com/Susafp/portfolio.git```,
-```git branch -M main```,
-```git push -u origin main```.
+```git branch -M master```,
+```git push -u origin master```.
 
 7. Entered my GitHub username and password to push the files from Git to GitHub.
 8. Went into 'Settings' on my repository page in GitHub.
