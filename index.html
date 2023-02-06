@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Susana Pato">
+    <meta name="description" content="Front End Developer Portfolio">
+    <meta name="keywords" content="Frontend, Developer, Web Developer, Projects, Programming, HTML, CSS, Bootstrap,JavaScript">
+    <!--FONTAWSOME-->
+    <script src="https://kit.fontawesome.com/da9b9f74c7.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bubbles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="row gradient">
+            <div class="col-7">
+                <!-- menu bars -->
+                <div class="container container mb-2">
+                    <div id="menu">
+                        <div id="menu-bar" onclick="menuOnClick()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div>
+
+                        <!-- nav links -->
+                        <nav class="nav" id="nav">
+                            <ul>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#qualifications">Qualifications</a></li>
+                                <li><a href="#training">Training</a></li>
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="contact.html" target="_blank" rel="noopener">Contact</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+                    <div class="menu-bg" id="menu-bg">
+                    </div>
+            </div>
+
+            <!-- bubbles -->
+            <div class="col-5 bubbleRow">
+                <div class="bubble b1"></div>
+                <div class="bubble b2"></div>
+                <div class="bubble b3"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <header class="container-fluid mt-5">
+            <div class="row justify-content-center align-items-center">
+                <!-- welcome text -->
+                <div class="col-sm-12 col-md-7 text-center" id="header">
+                    <h1 class="display-1 mt-2 text-light">Susana Pato</h1>
+                    <h3 class="display-5 p-2 text-muted">Portfolio</h3>
+                    <h4 class="display-5 pb-5 text-light">Front End Developer</h4>
+
+                    <!-- small screen img -->
+                    <div class="smallScreenImg col-sm-12  col-md-5 text-center">
+                        <img class="img-fluid rounded-3" src="assets/images/img.jpg" alt="image">
+                    </div>
+
+                    <div class="skillsText container">   
+                        <p class="hardSkills lead text-light">VS Code | HTML5 | CSS3 | JavaScript | Bootstrap | Git | GitHub | Figma</p><br>
+                        <img class="mx-1" style="width: 24px; margin-bottom: 8px;" src="assets\images\visual-studio-code-icons\visual-studio-code-icons\vscode.png" alt="">
+                        <i class="fa-brands fa-html5 px-1" style="color: rgb(216, 74, 27);"></i>
+                        <i class="fa-brands fa-css3-alt px-1" style="color: rgb(83, 149, 241);"></i>
+                        <i class="fa-brands fa-java px-1" style="color: rgb(241, 212, 83);"></i>
+                        <i class="fa-brands fa-bootstrap px-1" style="color: rgb(137, 82, 247);"></i>
+                        <i class="fa-brands fa-git px-1"></i>
+                        <i class="fa-brands fa-github px-1"></i>
+                        <img class="mx-1" style="width: 28px; margin-bottom: 8px; margin-right: 2px;" src="assets\images\figmaIcon.png" alt="">
+                        <p class="lead text-light mt-3">I've always been very much in love with Art&Design, Crafts and Web development, so I thought: "Why not combine it all together?!"<br>It took a leap of faith but here I am today!
+                            A certified Front End Developer looking forward to my next project!<br>
+                            On the look out for challenges that allow me to build on my skills and keep paving the path for a promissing career as a Front End Developer/Web Developer.
+                        </p>
+                    </div>
+                </div>
+            
+                <!-- img screen =/> 768px -->
+                <div class="biggerScrennImg col-sm-12 col-md-5 text-center">
+                    <img class="img-fluid rounded-3" src="assets/images/img.jpg" alt="image">
+                </div>
+            
+            </div>
+            
+        </header>
+
+        <!-- CONTENT -->
+
+        <!-- PROJECTS -->
+        <section class="projects container-fluid mt-5">
+            <h5 class="title display-5 pb-3 text-center text-white">Projects</h5>
+            <div class="row justify-content-around mt-5" id="projects">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">E-commerce Shop</h5>
+                        <img class="cardImage img-fluid" src="assets/images/e-shop.jpg" alt="E-commerce shop">
+                        <p class="card-text">Third project of the Frontend Developer course and it is one of Frontend Mentors challenges. The aim was to build out an e-commerce product page and get it looking as close to their original design as possible.
+                            Built with HTML5, CSS3 and JavaScript.
+                            <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="text-decoration-none" target="_blank" rel="noopener">#frontendmentor</a>
+                        </p>
+                        <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Allergens Quiz</h5>
+                            <img class="cardImage img-fluid" src="assets/images/quiz.jpg" alt="Allergen Quiz">
+                            <p class="card-text">Second project of the Frontend Development Course, built with HTML5, CSS3, Bootstrap and JavaScript. Great opportunity to practice fixtures as modals and use of JavaScript to achieve full functionality.</p>
+                            <a href="https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Art Portfolio</h5>
+                        <img class="cardImage img-fluid" src="assets/images/artportfolio.jpg" alt="Art Portfolio">
+                        <p class="card-text pt-3">This Portfolio was built with HTML5, CSS3 and Bootstrap. Besides having been an opportunity to practice newly learned languages this project also led me into important topics as UX, UI, User Stories, wireframes, Testing and how to use Git and GitHub.
+                            This project also gave me a lot of pleasure to build because it was an opportunity to showcase my own stained-glass work, design and craft skills.</p>
+                        <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- back to top button -->
+            <div class="row">
+                <div class="col text-end pt-lg-5">
+                    <a href="#menu" class="btn btn-outline-light">Back to top</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS - ONLY SMALLER SCREENS < 769px -->
+        <div id="projectsCarousel" class=" container-fluid carousel slide">
+            <h5 class="title display-5 p-2 pb-3 text-center text-white">Projects</h5>
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner justify-items-center">
+              <div class="carousel-item active">
+                <img src="assets/images/e-shop.jpg" class="carouselImg d-block pt-0 pb-5" alt="e-shop">
+                <div class="carousel-caption">
+                    <p class="text-dark mb-2">E-commerce Shop</p>
+                </div>
+                
+              </div>
+
+              <div class="carousel-item">
+                <img src="assets/images/quiz.jpg" class="carouselImg d-block pt-0 pb-5" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <p class="text-dark mb-3 d-none">Allergens Quiz</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="assets/images/artportfolio.jpg" class="carouselImg d-block pt-0 pb-5" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <p class="text-white mb-0">Art Portfolio</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <!-- PROJECT LINKS - ONLY SMALLER SCREENS < 769px -->
+        <section class="projectLinks container-fluid text-center">
+                <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">E-Shop</a>
+                <a href="https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Quiz</a>
+                <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Art Portfolio</a>      
+        </section>
+        
+        <!-- EDUCATION -->
+        <section class="education container-fluid mt-3">
+            <div class="row justify-content-center">
+                <h5 class="title display-5 p-2 pb-3 text-center text-white">Education</h5>
+                <!-- Qualifications -->
+                <div class="col-md-6 mt-lg-4" id="qualifications">
+                    <h6 class="display-6 p-2 pb-3 text-center text-white">Qualifications</h6>
+                    <div class="qualifications accordion  pt-lg-5" id="accordion">
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Front End Developer 
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Learning People Global, 2022<br><br>
+                                Skills acquired: Proficient working with: Visual Studio Code , HTML, CSS, JavaScript, Bootstrap, Git & GitHub. 
+                                <br>Formspree, Canva and Balsamic 
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Art and Design: Fine Arts AS/A2 LEVEL 
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Hills Road Sixth Form College, Cambridge, 2014<br><br>
+                                Build a well elaborated sketchbook based on planning, research and use of techniques such as painting, drawing and mixed media. Structured in a way that is able to express the development process as a growing idea. 
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                BA (Hons) Social Sciences – Social Work
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Universidade Aberta, Portugal, 2012<br><br> 
+                                Skills acquired: ability to analyze, interpret and synthetize data, themes, problems and social issues, in their various dimensions. It also included areas such as Sociology, Anthropology, Psychology, Economics, Politics and Law. 
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TRAINING -->
+                <div class="col-md-6 mt-lg-4" id="training">
+                    <h6 class="display-6 p-2 pb-3 text-center text-white">Training</h6>
+                    <img src="assets/images/noteBoard.jpg" class="img-fluid" alt="notesBoard">
+                    <p class="text-muted text-end">(Built with
+                        <a href="https://www.figma.com/" class="text-muted">Figma</a>)</p>
+                </div>
+            </div>
+            <!--back to top button -->
+            <div class="row d-none">
+                <div class="col text-end pt-3">
+                    <a href="#menu" class="btn btn-outline-light">Back to top</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK & SKILLS-->
+        <section class="workSkills container-fluid mt-1 pb-0 d-none">
+            <div class="row justify-content-between align-items-center">
+                <h5 class="title display-5 p-2 pb-3 text-center text-white">Work experience & Skills</h5>
+                <!-- SKILLS -->
+                <div class="col-sm-12 col-lg-7 mt-lg-4" id="skills">
+                    <h6 class="display-6 pt-3 pb-5 text-center text-white">How all links together</h6>
+                    <img class="img-fluid" src="assets/images/skillsBoard.jpg" alt="skillsBoard">
+                    <p class="text-muted text-center">(Some Front End Developer main skills VS Transferable skills | Built with
+                    <a href="https://www.figma.com/" class="text-muted">Figma</a>)</p>
+                </div>
+                <!-- WORK -->
+                <div class="col-sm-12 col-lg-5" id="work">
+                    <div class="work accordion" id="accordion1">
+                        <h6 class="display-6 mt-lg-0 px-2 pb-4 text-center text-white">Work History</h6>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Stained Glass Design
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion1">
+                                <div class="accordion-body">
+                                    Self-employed | Since 2018<br><br>
+                                    &#x2022 Communicate with customers, discuss ideas and design templates to plan a project that reflects their vision.<br> 
+                                    &#x2022 Creative and able to find ways to overcome design or budget barriers. <br>
+                                    &#x2022 Be focused and keep an eye for detail in order to build a high standard final piece. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Prisoner Custody Officer  
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                                Serco, Cambridge Crown Court | 2016 - 2020<br><br>
+                                &#x2022 Critical thinking while accessing potentially volatile situations as well as Problem Solving skills.<br>
+                                &#x2022 A team member, part of a bigger team that work together for a common goal. <br>
+                                &#x2022 Effective communication and active listening skills are extremely important here due to the nature of the environment. <br>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Support Assistant 
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion1">
+                                <div class="accordion-body">
+                                    The Perse School, Cambridge | 2015 - 2016<br><br>
+                                    &#x2022 Work within a team where a coordinated plan of action was discussed between all the parties and put into action in order to provide a variety of health, physical and educational support activities.<br>
+                                    &#x2022 Communication and emotional intelligence skills important to access pupils' wellbeing.   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Catering Industry 
+                            </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion1">
+                                <div class="accordion-body">
+                                    2012 – 2015<br>
+                                    Restaurant Supervisor | Front House Assistant | Catering Assistant <br>
+                                    (Nanna Mexico | Servest, Churchill House | Arundel House Hotel - Cambridge)<br>
+                                    &#x2022 Customer service care functions when welcoming and serving guests in the premises.<br>
+                                    &#x2022 Team work, as someone that contributes into providing great service and food for the customers.<br>
+                                    &#x2022 Problem Solving skills while supervising restaurant activities, team performance and customer needs.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Sports Activity Manager and Fitness Instructor 
+                            </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordion1">
+                                <div class="accordion-body">
+                                    Self-employed | 2010 - 2012 | Portugal<br>
+                                    &#x2022 Plan and organize lessons, conduct group fitness classes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Army soldier 
+                            </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordion1">
+                                <div class="accordion-body">
+                                    2001 - 2007 | Portugal<br>
+                                    &#x2022 Professional driving<br>
+                                    &#x2022 Teamwork<br>
+                                    &#x2022 Creative Problem Solving<br>
+                                    &#x2022 Resiliency
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- back to top button -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-end">
+                    <a href="#menu" class="btn btn-outline-light mb-1">Back to top</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="container-fluid text-white text-center">
+            <section class="contact" id="contact">
+                <div class="row align-content-center pe-0">
+                    <div class="col-4 text-end">
+                        <a href="https://www.linkedin.com/in/susana-frontend/?originalSubdomain=uk" aria-label="linkedin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin mt-2"></i></a>
+                    </div>
+
+                    <div class="col-4  text-center align-items-center">
+                        <a href="contact.html" class="btn btn-small btn-outline-light lead text-center text-decoration-none" target="_blank" rel="noopener">Contact</a>
+                        </div>
+
+                    <div class="col-4 text-start">
+                         <a href="https://github.com/Susafp" aria-label="github" target="_blank" rel="noopener"><i class="fa-brands fa-github mt-2"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="copyright">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-small fw-light">Susana Fragoso Pato | Scotland | Portugal | &copy; 2022</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
