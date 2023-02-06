@@ -221,6 +221,14 @@ footer{
     color: white;
 }
 
+
+@media only screen and (max-width: 446px) {
+    .copyright p{
+        font-size: 14px;
+    }
+}
+
+
 @supports(text-rendering: auto){
     .fa,
     .fa-brands,
