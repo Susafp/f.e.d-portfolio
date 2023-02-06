@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Portfolio Page](design/responsive.png)
+![Portfolio Page](assets\images\socialPreview.png)
 
 ### Links
 
-- GitHub Repository URL: [https://github.com/Susafp/portfolio.git]
-- Live Site URL: [https://susafp.github.io/portfolio/]
+- GitHub Repository URL: [https://github.com/Susafp/f.e.d-portfolio.git]
+- Live Site URL: [https://susafp.github.io/f.e.d-portfolio/]
 
 ## My process
 
