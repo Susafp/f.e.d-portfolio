@@ -98,9 +98,20 @@
 
         <!-- PROJECTS -->
         <section class="projects container-fluid mt-5">
-            <h5 class="title display-5 pb-3 text-center text-white">Projects</h5>
+            <h5 class="title display-5 pb-3 text-center text-white">Website Projects</h5>
             <div class="row justify-content-around mt-5" id="projects">
-
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Front End Dev Portfolio</h5>
+                        <img class="cardImage img-fluid" src="assets/images/socialPreview.png" alt="E-commerce shop">
+                        <p class="card-text">You are here!<br>
+                            Built with HTML5, CSS3 and JavaScript.
+                         </p>
+                        <a href="#" class="btn btn-dark disabled" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
@@ -111,17 +122,6 @@
                             <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="text-decoration-none" target="_blank" rel="noopener">#frontendmentor</a>
                         </p>
                         <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Allergens Quiz</h5>
-                            <img class="cardImage img-fluid" src="assets/images/quiz.jpg" alt="Allergen Quiz">
-                            <p class="card-text">Second project of the Frontend Development Course, built with HTML5, CSS3, Bootstrap and JavaScript. Great opportunity to practice fixtures as modals and use of JavaScript to achieve full functionality.</p>
-                            <a href="https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
                         </div>
                     </div>
                 </div>
@@ -147,55 +147,133 @@
             </div>
         </section>
 
-        <!-- PROJECTS - ONLY SMALLER SCREENS < 769px -->
+        <!-- PROJECTS -->
+
+        <!-- SMALLER PROJECTS section -->
+        <section class="projects container-fluid mt-5">
+            <h5 class="title display-5 pb-3 text-center text-white">Little Apps</h5>
+            <div class="row justify-content-around mt-5" id="projects">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Colour Theory Quiz</h5>
+                            <img class="cardImage img-fluid" src="assets/images/colourQuiz.png" alt="Allergen Quiz">
+                            <p class="card-text">Built with HTML5, CSS3, Bootstrap, JavaScript and Figma to create the image.</p>
+                            <a href=" https://susafp.github.io/Colour-Theory-Quiz/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Allergens Quiz</h5>
+                            <img class="cardImage img-fluid" src="assets/images/quiz.jpg" alt="Allergen Quiz">
+                            <p class="card-text">Second project of the Frontend Development Course, built with HTML5, CSS3, Bootstrap and JavaScript. Great opportunity to practice fixtures as modals and use of JavaScript to achieve full functionality.</p>
+                            <a href="https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- back to top button -->
+            <div class="row">
+                <div class="col text-end pt-lg-5">
+                    <a href="#menu" class="btn btn-outline-light">Back to top</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- WEBSITE PROJECTS - FOR  SMALLER SCREENS < 769px -->
         <div id="projectsCarousel" class=" container-fluid carousel slide">
-            <h5 class="title display-5 p-2 pb-3 text-center text-white">Projects</h5>
+            <h5 class="title display-5 p-2 pb-3 text-center text-white">Website Projects</h5>
             
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner justify-items-center">
-              <div class="carousel-item active">
-                <img src="assets/images/e-shop.jpg" class="carouselImg d-block pt-0 pb-5" alt="e-shop">
-                <div class="carousel-caption">
-                    <p class="text-dark mb-2">E-commerce Shop</p>
+                <div class="carousel-item active">
+                    <img src="assets/images/socialPreview.png" class="carouselImg d-block pt-0 pb-5" alt="portfolio">
+                    <div class="carousel-caption">
+                        <p class="text-dark mb-2">Front End Dev Portfolio</p>
+                    </div>
                 </div>
-                
-              </div>
 
-              <div class="carousel-item">
-                <img src="assets/images/quiz.jpg" class="carouselImg d-block pt-0 pb-5" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <p class="text-dark mb-3 d-none">Allergens Quiz</p>
+                <div class="carousel-item">
+                    <img src="assets/images/e-shop.jpg" class="carouselImg d-block pt-0 pb-5" alt="e-shop">
+                    <div class="carousel-caption">
+                        <p class="text-dark mb-2">E-commerce Shop</p>
+                    </div>
+                    
                 </div>
-              </div>
 
-              <div class="carousel-item">
-                <img src="assets/images/artportfolio.jpg" class="carouselImg d-block pt-0 pb-5" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <p class="text-white mb-0">Art Portfolio</p>
+                <div class="carousel-item">
+                    <img src="assets/images/artportfolio.jpg" class="carouselImg d-block pt-0 pb-5" alt="art portfolio">
+                    <div class="carousel-caption d-md-block">
+                    <p class="text-white mb-0">Art Portfolio</p>
+                    </div>
                 </div>
-              </div>
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
         
-        <!-- PROJECT LINKS - ONLY SMALLER SCREENS < 769px -->
+        <!-- WEBSITE PROJECT - LINKS - FOR SMALLER SCREENS < 769px -->
         <section class="projectLinks container-fluid text-center">
                 <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">E-Shop</a>
-                <a href="https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Quiz</a>
                 <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Art Portfolio</a>      
+        </section>
+
+        <!-- SMALLER PROJECTS - FOR SMALLER SCREENS < 769px -->
+        <div id="littleProjectsCarousel" class=" container-fluid carousel slide">
+            <h5 class="title display-5 p-2 pb-3 text-center text-white">Smaller Projects</h5>
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner justify-items-center">
+                <div class="carousel-item active">
+                    <img src="assets/images/quiz.jpg" class="carouselImg d-block pt-0 pb-5" alt="quiz">
+                    <div class="carousel-caption">
+                        <p class="text-dark mb-2">Allergens Quiz</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/colourQuiz.png" class="carouselImg d-block pt-0 pb-5" alt="colour quiz">
+                    <div class="carousel-caption">
+                        <p class="text-dark mb-2">Colour Theory Quiz</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <!-- SMALLER PROJECT - LINKS - FOR SMALLER SCREENS < 769px -->
+        <section class="projectLinks container-fluid text-center">
+            <a href="https://susafp.github.io/Colour-Theory-Quiz/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Clour Quiz</a>
+            <a href=" https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Allergen Quiz</a>
         </section>
         
         <!-- EDUCATION -->
@@ -214,7 +292,7 @@
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-dark">
                                 Learning People Global, 2022<br><br>
                                 Skills acquired: Proficient working with: Visual Studio Code , HTML, CSS, JavaScript, Bootstrap, Git & GitHub. 
                                 <br>Formspree, Canva and Balsamic 
@@ -229,7 +307,7 @@
                             </button>
                           </h2>
                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-dark">
                                 Hills Road Sixth Form College, Cambridge, 2014<br><br>
                                 Build a well elaborated sketchbook based on planning, research and use of techniques such as painting, drawing and mixed media. Structured in a way that is able to express the development process as a growing idea. 
                             </div>
@@ -243,7 +321,7 @@
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-dark">
                                 Universidade Aberta, Portugal, 2012<br><br> 
                                 Skills acquired: ability to analyze, interpret and synthetize data, themes, problems and social issues, in their various dimensions. It also included areas such as Sociology, Anthropology, Psychology, Economics, Politics and Law. 
                             </div>
@@ -251,15 +329,32 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- TRAINING -->
                 <div class="col-md-6 mt-lg-4" id="training">
                     <h6 class="display-6 p-2 pb-3 text-center text-white">Training</h6>
-                    <img src="assets/images/noteBoard.jpg" class="img-fluid" alt="notesBoard">
-                    <p class="text-muted text-end">(Built with
-                        <a href="https://www.figma.com/" class="text-muted">Figma</a>)</p>
+                        <!--<div class="col-md-6 mt-lg-4" id="qualifications">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-light text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Introduction to Figma
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="accordion-body text-dark">
+                                uxtoast.com, 2022<br><br>
+                                Skills acquired: Setting up colours and typography styles,
+                                create components, vectors and interactive prototypes for testing.
+                                Use of grids, auto layout and accessibility considerations. 
+                            </div>
+                            </div>
+                        </div>  -->  
+                    <div class="certificates col-md-6 mt-lg-5 d-flex flex-row pt-lg-2"> 
+                        <img src="assets/images/training/figma.png" class="img-fluid" alt="figma certificate">
+                    </div>
                 </div>
             </div>
-            <!--back to top button -->
+            <!--back to top button --> <!-- its on d-none -->
             <div class="row d-none">
                 <div class="col text-end pt-3">
                     <a href="#menu" class="btn btn-outline-light">Back to top</a>
@@ -267,7 +362,7 @@
             </div>
         </section>
 
-        <!-- WORK & SKILLS-->
+        <!-- WORK & SKILLS--> <!-- its on: display -none -->
         <section class="workSkills container-fluid mt-1 pb-0 d-none">
             <div class="row justify-content-between align-items-center">
                 <h5 class="title display-5 p-2 pb-3 text-center text-white">Work experience & Skills</h5>
