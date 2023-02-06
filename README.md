@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Portfolio Page](socialPreview.png)
+![Portfolio Page](assets/images/socialPreview.png)
 
 ### Links
 
