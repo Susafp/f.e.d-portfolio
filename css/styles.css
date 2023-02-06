@@ -228,6 +228,12 @@ footer{
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .btn{
+        font-size: 12px;
+    }
+}
+
 
 @supports(text-rendering: auto){
     .fa,
