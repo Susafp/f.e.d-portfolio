@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Susana Pato">
     <meta name="description" content="Front End Developer Portfolio">
-    <meta name="keywords" content="Frontend, Developer, Web Developer, Projects, Programming, HTML, CSS, Bootstrap,JavaScript">
+    <meta name="keywords" content="Frontend, Developer, Web Developer, Projects, Programming, HTML, CSS, Bootstrap, JavaScript">
     <!--FONTAWSOME-->
     <script src="https://kit.fontawesome.com/da9b9f74c7.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
@@ -15,6 +14,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bubbles.css">
+    <title>Portfolio</title>
     
 </head>
 <body>
@@ -41,8 +41,10 @@
                             </ul>
                         </nav> 
                     </div>
+
                     <div class="menu-bg" id="menu-bg">
                     </div>
+                </div>
             </div>
 
             <!-- bubbles -->
@@ -65,19 +67,19 @@
 
                     <!-- small screen img -->
                     <div class="smallScreenImg col-sm-12  col-md-5 text-center">
-                        <img class="img-fluid rounded-3" src="assets/images/img.jpg" alt="image">
+                        <img class="img-fluid rounded-3 w-auto" src="assets/images/img.jpg" alt="image">
                     </div>
 
                     <div class="skillsText container">   
                         <p class="hardSkills lead text-light">VS Code | HTML5 | CSS3 | JavaScript | Bootstrap | Git | GitHub | Figma</p><br>
-                        <img class="mx-1" style="width: 24px; margin-bottom: 8px;" src="assets\images\visual-studio-code-icons\visual-studio-code-icons\vscode.png" alt="">
+                        <img class="mx-1" style="width: 24px; margin-bottom: 8px;" src="assets/images/visual-studio-code-icons/visual-studio-code-icons/vscode.png" alt="vscode icon">
                         <i class="fa-brands fa-html5 px-1" style="color: rgb(216, 74, 27);"></i>
                         <i class="fa-brands fa-css3-alt px-1" style="color: rgb(83, 149, 241);"></i>
                         <i class="fa-brands fa-java px-1" style="color: rgb(241, 212, 83);"></i>
                         <i class="fa-brands fa-bootstrap px-1" style="color: rgb(137, 82, 247);"></i>
                         <i class="fa-brands fa-git px-1"></i>
                         <i class="fa-brands fa-github px-1"></i>
-                        <img class="mx-1" style="width: 28px; margin-bottom: 8px; margin-right: 2px;" src="assets\images\figmaIcon.png" alt="">
+                        <img class="mx-1" style="width: 28px; margin-bottom: 8px; margin-right: 2px;" src="assets/images/figmaIcon.png" alt="figma icon">
                         <p class="lead text-light mt-3">I've always been very much in love with Art&Design, Crafts and Web development, so I thought: "Why not combine it all together?!"<br>It took a leap of faith but here I am today!
                             A certified Front End Developer looking forward to my next project!<br>
                             On the look out for challenges that allow me to build on my skills and keep paving the path for a promissing career as a Front End Developer/Web Developer.
@@ -96,10 +98,11 @@
 
         <!-- CONTENT -->
 
-        <!-- PROJECTS -->
+        <!-- WEBSITE PROJECTS -->
         <section class="projects container-fluid mt-5">
             <h5 class="title display-5 pb-3 text-center text-white">Website Projects</h5>
             <div class="row justify-content-around mt-5" id="projects">
+               
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
@@ -112,16 +115,17 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">E-commerce Shop</h5>
-                        <img class="cardImage img-fluid" src="assets/images/e-shop.jpg" alt="E-commerce shop">
-                        <p class="card-text">Third project of the Frontend Developer course and it is one of Frontend Mentors challenges. The aim was to build out an e-commerce product page and get it looking as close to their original design as possible.
-                            Built with HTML5, CSS3 and JavaScript.
-                            <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="text-decoration-none" target="_blank" rel="noopener">#frontendmentor</a>
-                        </p>
-                        <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                            <h5 class="card-title">E-commerce Shop</h5>
+                            <img class="cardImage img-fluid" src="assets/images/e-shop.jpg" alt="E-commerce shop">
+                            <p class="card-text">Third project of the Frontend Developer course and it is one of Frontend Mentors challenges. The aim was to build out an e-commerce product page and get it looking as close to their original design as possible.
+                                Built with HTML5, CSS3 and JavaScript.
+                                <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="text-decoration-none" target="_blank" rel="noopener">#frontendmentor</a>
+                            </p>
+                            <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
                         </div>
                     </div>
                 </div>
@@ -129,11 +133,11 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Art Portfolio</h5>
-                        <img class="cardImage img-fluid" src="assets/images/artportfolio.jpg" alt="Art Portfolio">
-                        <p class="card-text pt-3">This Portfolio was built with HTML5, CSS3 and Bootstrap. Besides having been an opportunity to practice newly learned languages this project also led me into important topics as UX, UI, User Stories, wireframes, Testing and how to use Git and GitHub.
-                            This project also gave me a lot of pleasure to build because it was an opportunity to showcase my own stained-glass work, design and craft skills.</p>
-                        <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
+                            <h5 class="card-title">Art Portfolio</h5>
+                            <img class="cardImage img-fluid" src="assets/images/artportfolio.jpg" alt="Art Portfolio">
+                            <p class="card-text pt-3">This Portfolio was built with HTML5, CSS3 and Bootstrap. Besides having been an opportunity to practice newly learned languages this project also led me into important topics as UX, UI, User Stories, wireframes, Testing and how to use Git and GitHub.
+                                This project also gave me a lot of pleasure to build because it was an opportunity to showcase my own stained-glass work, design and craft skills.</p>
+                            <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-dark" target="_blank" rel="noopener">Visit</a>
                         </div>
                     </div>
                 </div>
@@ -147,12 +151,10 @@
             </div>
         </section>
 
-        <!-- PROJECTS -->
-
         <!-- SMALLER PROJECTS section -->
         <section class="projects container-fluid mt-5">
-            <h5 class="title display-5 pb-3 text-center text-white">Little Apps</h5>
-            <div class="row justify-content-around mt-5" id="projects">
+            <h5 class="title display-5 pb-3 text-center text-white">Smaller Projects</h5>
+            <div class="row justify-content-around mt-5" id="projectsSm">
 
                 <div class="col-md-4">
                     <div class="card">
@@ -184,6 +186,8 @@
                 </div>
             </div>
         </section>
+        
+        <!-- FOR SMALLER SCREENS -->
 
         <!-- WEBSITE PROJECTS - FOR  SMALLER SCREENS < 769px -->
         <div id="projectsCarousel" class=" container-fluid carousel slide">
@@ -228,8 +232,8 @@
             </button>
         </div>
         
-        <!-- WEBSITE PROJECT - LINKS - FOR SMALLER SCREENS < 769px -->
-        <section class="projectLinks container-fluid text-center">
+        <!-- LINKS - FOR SMALLER SCREENS < 769px -->
+        <section class="projectLinks container-fluid text-center mb-4">
                 <a href="https://susafp.github.io/e-commerce-sneakers-company/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">E-Shop</a>
                 <a href="https://susafp.github.io/Portfolio-Milestone-One/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Art Portfolio</a>      
         </section>
@@ -258,7 +262,6 @@
                     </div>
                     
                 </div>
-
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#littleProjectsCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -270,14 +273,14 @@
             </button>
         </div>
         
-        <!-- SMALLER PROJECT - LINKS - FOR SMALLER SCREENS < 769px -->
+        <!-- LINKS - FOR SMALLER SCREENS < 769px -->
         <section class="projectLinks container-fluid text-center">
             <a href="https://susafp.github.io/Colour-Theory-Quiz/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Clour Quiz</a>
             <a href=" https://susafp.github.io/Allergens-Quiz-Milestone-two/" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">Allergen Quiz</a>
         </section>
         
         <!-- EDUCATION & TRAINING -->
-        <section class="education container-fluid mt-3">
+        <section class="education container-fluid mt-2">
             <div class="row justify-content-center">
                 <h5 class="title display-5 p-2 pb-3 text-center text-white">Education</h5>
                 <!-- Qualifications -->
@@ -487,35 +490,33 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- FOOTER -->
-        <footer class="container-fluid text-white text-center">
-            <section class="contact" id="contact">
-                <div class="row align-content-center pe-0">
-                    <div class="col-4 text-end">
-                        <a href="https://www.linkedin.com/in/susana-frontend/?originalSubdomain=uk" aria-label="linkedin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin mt-2"></i></a>
-                    </div>
-
-                    <div class="col-4  text-center align-items-center">
-                        <a href="contact.html" class="btn btn-small btn-outline-light lead text-center text-decoration-none" target="_blank" rel="noopener">Contact</a>
-                        </div>
-
-                    <div class="col-4 text-start">
-                         <a href="https://github.com/Susafp" aria-label="github" target="_blank" rel="noopener"><i class="fa-brands fa-github mt-2"></i></a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="copyright">
-                <div class="row p-0">
-                    <div class="col">
-                        <p class="text-small fw-light">Susana Fragoso Pato | Scotland | Portugal | &copy; 2022</p>
-                    </div>
-                </div>
-            </section>
-        </footer>
     </main>
+
+    <footer class="container-fluid text-white text-center">
+        <section class="contact" id="contact">
+            <div class="row pe-0">
+                <div class="col-5 text-end">
+                    <a href="https://www.linkedin.com/in/susana-frontend/?originalSubdomain=uk" aria-label="linkedin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin mt-2"></i></a>
+                </div>
+
+                <div class="col-2 text-center align-items-center px-0">
+                    <a href="contact.html" class="btn btn-small btn-outline-light lead text-center text-decoration-none" target="_blank" rel="noopener">Contact</a>
+                    </div>
+
+                <div class="col-5 text-start">
+                     <a href="https://github.com/Susafp" aria-label="github" target="_blank" rel="noopener"><i class="fa-brands fa-github mt-2"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright">
+            <div class="row p-0">
+                <div class="col">
+                    <p class="text-small fw-light">Susana Fragoso Pato | Scotland | Portugal | &copy; 2022</p>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
