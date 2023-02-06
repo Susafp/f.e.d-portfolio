@@ -72,14 +72,17 @@ body{
     font-weight: bold;
 }
 
-
+/* this is because I had 2 id projects for both projects and smaller
+screen projects carousel - cannot have 2 x the same id! So the 
+link for projects was not working. Created 1 different link and a new
+id for the carousel and they open in turns depending on screen size.
+ */
 @media screen and (max-width: 769px){
     #aProjLink{
         display: none;
         
     }
 }
-
 
 @media screen and (min-width: 769px){
     #aProjCarouselLink{
